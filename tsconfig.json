@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "es5",
     "noUnusedLocals": true,
-    "outFile": "app/app.js"
+    "outFile": "app/app.js",
+    "strictNullChecks": true,
+    "noImplicitAny": true
   },
   "files": [
     "app/app.ts"
